@@ -71,7 +71,7 @@ a:hover {
 
 
 
-@media (max-width: 767px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 575px) {
     html, body {
         height: 100%;
         width: 100%;
@@ -91,7 +91,7 @@ a:hover {
         align-items: center;
         height: 100%;
         color: black;
-        font-size: 15px;
+        font-size: 10px;
         font-family: 'Julius Sans One', sans-serif;
         animation-name: show;
         animation-duration: 4s;
@@ -99,7 +99,7 @@ a:hover {
         animation-fill-mode: forwards;
     }
     a {
-        font-size: 50px;
+        font-size: 30px;
         text-decoration: none;
         color: black;
         padding: 5px;
