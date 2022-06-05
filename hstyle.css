@@ -102,7 +102,7 @@ a:hover {
         font-size: 50px;
         text-decoration: none;
         color: black;
-        padding: 7px;
+        padding: 5px;
         transition: all 1s ease;
         animation-name: link;
         animation-duration: 5s;
